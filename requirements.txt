@@ -3,7 +3,9 @@ numpy
 scipy
 nltk
 scikit-learn
-protobuf==3.18.3
+protobuf  #==3.18.3
 ortools
 fuzzywuzzy
 dedupe-hcluster
+unidecode
+python-Levenshtein

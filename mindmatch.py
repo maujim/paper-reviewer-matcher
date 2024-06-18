@@ -57,7 +57,7 @@ if __name__ == "__main__":
         n_trim = int(n_trim)
         print('Trimming parameter is set to {}'.format(n_trim))
 
-    output_filename = arguments.get('output')
+    output_filename = arguments.get('--output')
     if output_filename is None:
         output_filename = 'output_match.csv'
 

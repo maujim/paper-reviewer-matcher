@@ -45,7 +45,7 @@ def perform_mindmatch(
     # if conflict of interest (COIs) is available, add to the matrix
     cois = [(c1, c2) for (c1, c2) in cois
             if c1 <= len(A) and c2 <= len(A)] # make sure a given cois is in range
-    A[np.array(cois)] = -1000
+    A[np.array(cois, dtype=int)] = -1000
 
     # trimming affinity matrix to reduce the problem size
     if n_trim != 0:

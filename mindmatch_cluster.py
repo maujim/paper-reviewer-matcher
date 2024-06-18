@@ -69,7 +69,7 @@ if __name__ == "__main__":
         n_clusters = int(n_clusters)
         print('Setting number of clusters to 4')
 
-    output_filename = arguments.get('output')
+    output_filename = arguments.get('--output')
     if output_filename is None:
         output_filename = 'output_match.csv'
 
